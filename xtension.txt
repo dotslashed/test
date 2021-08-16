@@ -1,0 +1,1 @@
+cat wayback.txt | egrep -i -E -o "\.{1}\w*$" | sort -u
